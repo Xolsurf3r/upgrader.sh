@@ -5,7 +5,7 @@ apt-get dist-upgrade -y | grep upgraded
 
 sleep 2s
 
-echo Do you want to reboot? \(Y/N\)
+echo "Do you want to reboot? (Y/N)"
 
 read YorN
 
